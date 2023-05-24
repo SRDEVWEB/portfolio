@@ -1,0 +1,109 @@
+:root {
+  --orange-color: rgb(242, 142, 0);
+  --black-color: rgb(56,53,51);
+  --blue-color: rgb(21,170,191);
+}
+
+    .hover-bg-success:hover{
+        /* color:var(--bs-success); */
+        color:beige;
+        cursor:pointer;
+    }
+
+    .my-animation {
+        animation-name: modificationstyle;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      @keyframes modificationstyle {
+        from { transform: translateX(0); letter-spacing: 1px;color:--black-color;}
+        to { transform: translateX(-20px); letter-spacing: 8px; color:beige; font-weight: bolder;}
+      }
+
+      .my-animation2 {
+        animation-name: modificationstyle4;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      @keyframes modificationstyle2 {
+        /* : hidden; */
+        from { letter-spacing: 8px;cursor:none;
+          transform: translateX(-20px);}
+        to { letter-spacing: 1px;}
+      }
+
+      @keyframes modificationstyletechno{
+        from {justify-content: left; min-height: 120px;align-items: center; color:var(--black-color);}
+        to { justify-content: left; min-height: 0px;}
+      }
+
+      .styleul {
+          text-align: left;
+      }
+      .p-0.m-0 {
+        text-align: left;
+      }
+
+      #noPointerElement, #noPointerElement2, #noPointerElement3, #noPointerElement4{
+        display: flex;
+        min-height: 120px;
+        align-items: center;
+      }
+
+      .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--orange-color);
+  display: inline-block;
+  border-radius:50%;
+  align-items:center;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.opac75{
+  opacity:0.85;
+  cursor: grab;
+}
+
+.opac75:hover{
+  opacity:0.25;
+}
+
+.bg-info2{
+  background-color:gray;
+}
+
+.text-warning2{
+  color:var(--orange-color);
+}
+
+.bg-warning2{
+  background-color:var(--orange-color);
+
+}
+
+.text-success2{
+  color:beige;
+}
+
+.bg-gray{
+  background-color: beige;
+}
+
+.text-space{
+  letter-spacing: 5px;
+  font-size: larger;
+}
+
+.txt-black{
+  color:var(--black-color);
+}
